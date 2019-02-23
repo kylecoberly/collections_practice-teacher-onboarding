@@ -8,3 +8,4 @@ end
 
 def sort_array_char_count array_of_strings
   array_of_strings.sort { |a, b| a.length <=> b.length }
+end
