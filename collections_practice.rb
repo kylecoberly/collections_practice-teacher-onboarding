@@ -11,9 +11,9 @@ def sort_array_char_count array_of_strings
 end
 
 def swap_elements array
-  third = array[2]
-  second = array[1]
-  array[1] = third
-  array[2] = second
+  temp = array[2]
+  array[2] = array[1]
+  array[1] = temp
+
   array
 end
