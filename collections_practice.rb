@@ -44,3 +44,11 @@ end
 def sum_array array
   array.reduce { |sum, number| sum += number }
 end
+
+def add_s array
+  array.each.with_index do |word, index|
+    if (index != 2)
+      word = word + s
+    end
+  end
+end
