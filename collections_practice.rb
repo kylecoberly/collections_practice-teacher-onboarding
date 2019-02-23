@@ -47,7 +47,7 @@ end
 
 def add_s array
   array.each.with_index do |word, index|
-    if (index != 2)
+    if (index != 1)
       word = word + "s"
     end
     return word
