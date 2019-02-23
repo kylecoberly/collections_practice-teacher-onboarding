@@ -50,5 +50,6 @@ def add_s array
     if (index != 2)
       word = word + "s"
     end
+    return word
   end
 end
