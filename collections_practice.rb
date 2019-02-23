@@ -31,5 +31,8 @@ def reverse_array array
 end
 
 def kesha_maker array
-  array.map { |string| string[2] = '$'}
+  array.map { |string| 
+    string[2] = '$'
+    string
+  }
 end
